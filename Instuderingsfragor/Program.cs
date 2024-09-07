@@ -21,5 +21,6 @@
 //Snippet(prop, cls, ctor):
 
 //prop: Skapar en property(egenskap) i klassen.
-//cls: Skapar en klassdefinition.
+//cls: CLSCompliantAttribute.
 //ctor: Skapar en konstruktordefinition.
+
