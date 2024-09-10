@@ -28,6 +28,7 @@ namespace OOP2
 
         public string GetGrades() 
         {
+            return;
         }
     }
     public class Teacher
@@ -38,7 +39,7 @@ namespace OOP2
 
         public string CourseResponsibleTeacher()
         {
-
+            return;
         }
     }
 }
