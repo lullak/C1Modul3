@@ -32,10 +32,10 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
-            dateTimePicker2 = new DateTimePicker();
+            textBoxCourse = new TextBox();
+            textBoxPoints = new TextBox();
+            dateTimePickerStart = new DateTimePicker();
+            dateTimePickerEnd = new DateTimePicker();
             textBoxShow = new Button();
             buttonCalculatePoints = new Button();
             buttonCalculate = new Button();
@@ -77,33 +77,33 @@
             label4.TabIndex = 3;
             label4.Text = "Slutdatum";
             // 
-            // textBox1
+            // textBoxCourse
             // 
-            textBox1.Location = new Point(126, 44);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(237, 27);
-            textBox1.TabIndex = 4;
+            textBoxCourse.Location = new Point(126, 44);
+            textBoxCourse.Name = "textBoxCourse";
+            textBoxCourse.Size = new Size(237, 27);
+            textBoxCourse.TabIndex = 4;
             // 
-            // textBox2
+            // textBoxPoints
             // 
-            textBox2.Location = new Point(126, 80);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(126, 27);
-            textBox2.TabIndex = 5;
+            textBoxPoints.Location = new Point(126, 80);
+            textBoxPoints.Name = "textBoxPoints";
+            textBoxPoints.Size = new Size(126, 27);
+            textBoxPoints.TabIndex = 5;
             // 
-            // dateTimePicker1
+            // dateTimePickerStart
             // 
-            dateTimePicker1.Location = new Point(126, 116);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(250, 27);
-            dateTimePicker1.TabIndex = 6;
+            dateTimePickerStart.Location = new Point(126, 116);
+            dateTimePickerStart.Name = "dateTimePickerStart";
+            dateTimePickerStart.Size = new Size(250, 27);
+            dateTimePickerStart.TabIndex = 6;
             // 
-            // dateTimePicker2
+            // dateTimePickerEnd
             // 
-            dateTimePicker2.Location = new Point(126, 154);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(250, 27);
-            dateTimePicker2.TabIndex = 7;
+            dateTimePickerEnd.Location = new Point(126, 154);
+            dateTimePickerEnd.Name = "dateTimePickerEnd";
+            dateTimePickerEnd.Size = new Size(250, 27);
+            dateTimePickerEnd.TabIndex = 7;
             // 
             // textBoxShow
             // 
@@ -113,6 +113,7 @@
             textBoxShow.TabIndex = 8;
             textBoxShow.Text = "Visa";
             textBoxShow.UseVisualStyleBackColor = true;
+            textBoxShow.Click += textBoxShow_Click;
             // 
             // buttonCalculatePoints
             // 
@@ -140,10 +141,10 @@
             Controls.Add(buttonCalculate);
             Controls.Add(buttonCalculatePoints);
             Controls.Add(textBoxShow);
-            Controls.Add(dateTimePicker2);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(dateTimePickerEnd);
+            Controls.Add(dateTimePickerStart);
+            Controls.Add(textBoxPoints);
+            Controls.Add(textBoxCourse);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -160,10 +161,10 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private DateTimePicker dateTimePicker1;
-        private DateTimePicker dateTimePicker2;
+        private TextBox textBoxCourse;
+        private TextBox textBoxPoints;
+        private DateTimePicker dateTimePickerStart;
+        private DateTimePicker dateTimePickerEnd;
         private Button textBoxShow;
         private Button buttonCalculatePoints;
         private Button buttonCalculate;

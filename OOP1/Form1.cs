@@ -10,9 +10,9 @@ namespace OOP1
         private void button1_Click(object sender, EventArgs e)
         {
             Message message = new Message();
-            message.Text = textBox1.Text;
+            string printMessage = textBox1.Text;
 
-            MessageBox.Show(message.ShowMessage(message.Text));
+            MessageBox.Show(message.ShowMessage(printMessage));
             
 
         }
