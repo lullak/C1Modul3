@@ -13,6 +13,14 @@ namespace DemoOOPBilverkstad.Classes
         public string Address { get; set; }
         public string Mail { get; set; }
 
+        public Customer(string name, string phone, string address, string mail)
+        {
+            Name = name;
+            Phone = phone;
+            Address = address;
+            Mail = mail;
+        }
+
         public void Save() { }
         public void Update() { }
         public void Delete() { }

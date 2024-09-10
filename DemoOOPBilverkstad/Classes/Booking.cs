@@ -11,6 +11,8 @@ namespace DemoOOPBilverkstad.Classes
         public Car BookedCar { get; set; }
         public Service Service { get; set; }
         public DateTime Date { get; set; }
+
+
         public void Save() { }
         public void Update() { }
         public void Delete() { }

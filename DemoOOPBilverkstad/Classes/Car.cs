@@ -13,6 +13,16 @@ namespace DemoOOPBilverkstad.Classes
         public string Model { get; set; }
         public int Year { get; set; }
         public Customer Owner { get; set; }
+
+        public Car(string regNumber, string color, string model, int year, Customer owner)
+        {
+            RegNumber = regNumber;
+            Color = color;
+            Model = model;
+            Year = year;
+            Owner = owner;
+        }
+
         public void Save() { }
         public void Update() { }
         public void Delete() { }
