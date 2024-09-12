@@ -14,7 +14,7 @@ namespace OOP2.Classes
 
         public string CourseResponsibleTeacher()
         {
-            return;
+            return "";
         }
     }
 }

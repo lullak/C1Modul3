@@ -15,7 +15,7 @@ namespace OOP2.Classes
 
         public string GetGrades()
         {
-            return;
+            return "";
         }
     }
 }

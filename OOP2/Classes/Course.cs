@@ -22,7 +22,10 @@ namespace OOP2.Classes
             EndDate = endDate;
         }
 
-
+        public void Save()
+        {
+            FileHandler fileHandler = new FileHandler("kurs.txt");
+        }
         public void CalculateCourseDays() { }
         public void PointsPerCourseDay() { }
     }
