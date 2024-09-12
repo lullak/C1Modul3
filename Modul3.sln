@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsRepi", "WinFormsRep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsDemo1", "WinFormsDemo1\WinFormsDemo1.csproj", "{285D19FB-470A-4A1D-96CB-74A611FC8A85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOOPBlocket", "DemoOOPBlocket\DemoOOPBlocket.csproj", "{285296C7-2412-4AD7-8E2B-31D2D07B6559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoOOPBlocket", "DemoOOPBlocket\DemoOOPBlocket.csproj", "{285296C7-2412-4AD7-8E2B-31D2D07B6559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOOPBilverkstad", "DemoOOPBilverkstad\DemoOOPBilverkstad.csproj", "{BD52E374-23A2-4BD0-9252-72DBC5920568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoOOPBilverkstad", "DemoOOPBilverkstad\DemoOOPBilverkstad.csproj", "{BD52E374-23A2-4BD0-9252-72DBC5920568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumpCode", "DumpCode\DumpCode.csproj", "{48FF2846-774B-4FC1-B14C-2D4F83F5EC4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOOPBokus", "DemoOOPBokus\DemoOOPBokus.csproj", "{9B617D32-109F-4102-A2A5-ADCB1CACE6C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{BD52E374-23A2-4BD0-9252-72DBC5920568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD52E374-23A2-4BD0-9252-72DBC5920568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD52E374-23A2-4BD0-9252-72DBC5920568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FF2846-774B-4FC1-B14C-2D4F83F5EC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FF2846-774B-4FC1-B14C-2D4F83F5EC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FF2846-774B-4FC1-B14C-2D4F83F5EC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FF2846-774B-4FC1-B14C-2D4F83F5EC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B617D32-109F-4102-A2A5-ADCB1CACE6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B617D32-109F-4102-A2A5-ADCB1CACE6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B617D32-109F-4102-A2A5-ADCB1CACE6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B617D32-109F-4102-A2A5-ADCB1CACE6C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
