@@ -26,7 +26,7 @@ namespace DemoOOPBokus.Classes
 
         public void Save() 
         {
-            FileHandler fileHandler = new FileHandler(@"C:\Code\pwc\C1Modul3\DemoOOPBokus\Customer.txt\");
+            FileHandler fileHandler = new FileHandler(@"C:\Code\pwc\C1Modul3\DemoOOPBokus\Customer.txt");
             string text = $"{Name},{Email},{Phone}";
             fileHandler.WriteToFile(text);
         }
