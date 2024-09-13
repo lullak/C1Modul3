@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoOOPBokus", "DemoOOPBoku
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOOPGym", "DemoOOPGym\DemoOOPGym.csproj", "{BBC06550-F410-42C4-8743-0F593E361618}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOStudent5", "OOStudent5\OOStudent5.csproj", "{036F0993-134B-4A1A-B880-BB9E44FF65E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{BBC06550-F410-42C4-8743-0F593E361618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBC06550-F410-42C4-8743-0F593E361618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBC06550-F410-42C4-8743-0F593E361618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036F0993-134B-4A1A-B880-BB9E44FF65E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036F0993-134B-4A1A-B880-BB9E44FF65E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036F0993-134B-4A1A-B880-BB9E44FF65E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036F0993-134B-4A1A-B880-BB9E44FF65E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
