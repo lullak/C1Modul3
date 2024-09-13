@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OOP2.Classes
 {
-    class FileHandler
+    public class FileHandler
     {
         private string _filePath {  get; set; }
 
@@ -16,18 +16,10 @@ namespace OOP2.Classes
             _filePath = filePath;
         }
 
-        public void CreateFile() 
-        {
-            if (!File.Exists(_filePath))
-            {
-                using (FileStream fs = File.Create(_filePath)) { }
-            }
-        }
 
         public void WriteToFile(string text)
         {
-            CreateFile();
-            using (StreamWriter sw = new StreamWriter(_filePath))
+            using (StreamWriter sw = new StreamWriter(_filePath, true))
             {
                 sw.WriteLine(text);
             }

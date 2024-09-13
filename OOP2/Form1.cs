@@ -8,13 +8,31 @@ namespace OOP2
             InitializeComponent();
         }
 
+        Course course = null;
+        private void setValues()
+        {
+            course = new Course(textBoxCourse.Text, int.Parse(textBoxPoints.Text), dateTimePickerStart.Value,
+                                       dateTimePickerEnd.Value);
+        }
+
         private void textBoxShow_Click(object sender, EventArgs e)
         {
-            Course course = new Course(textBoxCourse.Text, int.Parse(textBoxPoints.Text), dateTimePickerStart.Value,
-                                       dateTimePickerEnd.Value);
-            string message = $"Kurs: {course.Name}\nPoäng: {course.Points}\nStartdatum: {course.StartDate.ToString()}\n" +
-                             $"Slutdatum: {course.EndDate.ToString()}";
+            setValues();
+            string message = $"Kurs: {course.Name}\nPoäng: {course.Points}\nStartdatum: {course.StartDate.ToString("yyyy-MM-dd")}\n" +
+                             $"Slutdatum: {course.EndDate.ToString("yyyy-MM-dd")}";
             MessageBox.Show(message);
+        }
+
+        private void buttonCalculate_Click(object sender, EventArgs e)
+        {
+            setValues();
+            MessageBox.Show($"Kursen pågår i {course.CalculateCourseDays():##} dagar.");
+        }
+
+        private void buttonCalculatePoints_Click(object sender, EventArgs e)
+        {
+            setValues();
+            MessageBox.Show($"Antal poäng per dag på kursen är {course.PointsPerCourseDay():##.##}.");
         }
     }
 }

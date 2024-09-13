@@ -26,7 +26,14 @@ namespace OOP2.Classes
         {
             FileHandler fileHandler = new FileHandler("kurs.txt");
         }
-        public void CalculateCourseDays() { }
-        public void PointsPerCourseDay() { }
+        public double CalculateCourseDays() 
+        {
+            return (EndDate - StartDate).TotalDays;        
+        }
+        public float PointsPerCourseDay() 
+        {
+            return (float)CalculateCourseDays()/Points;
+
+        }
     }
 }

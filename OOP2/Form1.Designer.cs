@@ -123,6 +123,7 @@
             buttonCalculatePoints.TabIndex = 9;
             buttonCalculatePoints.Text = "Beräkna poäng";
             buttonCalculatePoints.UseVisualStyleBackColor = true;
+            buttonCalculatePoints.Click += buttonCalculatePoints_Click;
             // 
             // buttonCalculate
             // 
@@ -132,6 +133,7 @@
             buttonCalculate.TabIndex = 10;
             buttonCalculate.Text = "Beräkna";
             buttonCalculate.UseVisualStyleBackColor = true;
+            buttonCalculate.Click += buttonCalculate_Click;
             // 
             // Form1
             // 
