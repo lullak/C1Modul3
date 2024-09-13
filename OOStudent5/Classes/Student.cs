@@ -32,9 +32,15 @@ namespace OOStudent5.Classes
             }
             return true;
         }
-        public string[] GetGrades()
+        public string[,] GetGrades()
         {
-            string[] grades = { "Programmering C#\t\tG", "ASP.NET med C#\t\t\tVG", "Frontend utveckling\t\tVG" };
+            string[,] grades = new string[3, 2];
+            grades[0, 0] = "Programmering C#";
+            grades[0, 1] = "G";
+            grades[1, 0] = "ASP.NET med C#";
+            grades[1, 1] = "VG";
+            grades[2, 0] = "Frontend utveckling";
+            grades[2, 1] = "VG";
             return grades;
         }
     }

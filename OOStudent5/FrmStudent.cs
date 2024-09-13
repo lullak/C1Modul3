@@ -34,10 +34,10 @@ namespace OOStudent5
                 return;
             }
 
-            string[] grades = student.GetGrades();
-            listBoxCourses.Items.Add(grades[0]);
-            listBoxCourses.Items.Add(grades[1]);
-            listBoxCourses.Items.Add(grades[2]);
+            string[,] grades = student.GetGrades();
+            listBoxCourses.Items.Add($"{grades[0, 0]}\t\t{grades[0, 1]}");
+            listBoxCourses.Items.Add($"{grades[1, 0]}\t\t\t{grades[1, 1]}");
+            listBoxCourses.Items.Add($"{grades[2, 0]}\t\t{grades[2, 1]}");
 
         }
 
