@@ -21,6 +21,8 @@ namespace OOStudent5
                 MessageBox.Show("Fyll i alla uppgifter.");
                 return;
             }
+            frmShowStudentInfo frmShowStudentInfo = new frmShowStudentInfo(student);
+            frmShowStudentInfo.Show();
             MessageBox.Show($"Du har fyllt in följande uppgifter: \n{student.FirstName}" +
                 $"\n{student.Surname}\n{student.SecurityNumber}\n{student.Phone}\n{student.Email}\nstämmer det?");
         }

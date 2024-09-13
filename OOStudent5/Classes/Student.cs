@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOStudent5.Classes
 {
-    internal class Student
+    public class Student
     {
         public string FirstName { get; set; }
         public string Surname { get; set; }
