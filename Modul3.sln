@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DumpCode", "DumpCode\DumpCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoOOPBokus", "DemoOOPBokus\DemoOOPBokus.csproj", "{9B617D32-109F-4102-A2A5-ADCB1CACE6C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOOPGym", "DemoOOPGym\DemoOOPGym.csproj", "{BBC06550-F410-42C4-8743-0F593E361618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoOOPGym", "DemoOOPGym\DemoOOPGym.csproj", "{BBC06550-F410-42C4-8743-0F593E361618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOStudent5", "OOStudent5\OOStudent5.csproj", "{036F0993-134B-4A1A-B880-BB9E44FF65E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOStudent5", "OOStudent5\OOStudent5.csproj", "{036F0993-134B-4A1A-B880-BB9E44FF65E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frmBookCourt", "frmBookCourt\frmBookCourt.csproj", "{8C9701C6-A6D6-46C3-A1B6-D0BC44378D73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{036F0993-134B-4A1A-B880-BB9E44FF65E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{036F0993-134B-4A1A-B880-BB9E44FF65E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{036F0993-134B-4A1A-B880-BB9E44FF65E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9701C6-A6D6-46C3-A1B6-D0BC44378D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9701C6-A6D6-46C3-A1B6-D0BC44378D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9701C6-A6D6-46C3-A1B6-D0BC44378D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9701C6-A6D6-46C3-A1B6-D0BC44378D73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
