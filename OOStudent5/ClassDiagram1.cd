@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOStudent5.Classes.Classroom">
+    <Position X="1.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAEBAAAAAAAAAgAAAAhAAAAABAAA=</HashCode>
+      <FileName>Classes\Classroom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOStudent5.Classes.Lecture">
+    <Position X="3.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAABIAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Lecture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOStudent5.Classes.Student">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEAAACAAAAAAAAgAAAAABAAAAAAAAAAAIAAAEAA=</HashCode>
+      <FileName>Classes\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOStudent5.Classes.Teacher">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAAAAEAAAAQAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Classes\Teacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOStudent5.Education">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAQIAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Education.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
