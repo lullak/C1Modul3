@@ -23,8 +23,8 @@ namespace OOStudent5
             }
             frmShowStudentInfo frmShowStudentInfo = new frmShowStudentInfo(student);
             frmShowStudentInfo.Show();
-            MessageBox.Show($"Du har fyllt in följande uppgifter: \n{student.FirstName}" +
-                $"\n{student.Surname}\n{student.SecurityNumber}\n{student.Phone}\n{student.Email}\nstämmer det?");
+            //MessageBox.Show($"Du har fyllt in följande uppgifter: \n{student.FirstName}" +
+            //    $"\n{student.Surname}\n{student.SecurityNumber}\n{student.Phone}\n{student.Email}\nstämmer det?");
         }
 
         private void buttonGetGrades_Click(object sender, EventArgs e)
